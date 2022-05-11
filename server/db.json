@@ -1,0 +1,74 @@
+{
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "The vue Tutorial",
+      "description": "The best tips and tutorials for Vue",
+      "published": false
+    },
+    {
+      "id": 2,
+      "title": "Amazing microsoft .NET",
+      "description": "Weekly tutorials about .NET and ASP.Core",
+      "published": false
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "William Norton"
+    }
+    ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Vue from scratch",
+      "description": "Lean Vue from A to Z",
+      "instructorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Vuetify and Beyond",
+      "description": "Learn Vuetify like a Pro",
+      "instructorId": 2
+    },
+    {
+      "id": 3,
+      "name": "ASP.NET Core Advanced",
+      "description": "Learn what nobody wants to tell u about ASP.NET Core",
+      "instructorId": 1
+    }
+    ],
+  "topics":[
+  {
+    "id": 1,
+    "name": "Vue"
+
+  },
+    {
+      "id": 2,
+      "name": "ASP.NET Core"
+    }
+  ],
+  "scopes": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "topicId": 1
+    },
+    {
+      "id": 3,
+      "courseId": 3,
+      "topicId": 2
+    }
+  ]
+}
